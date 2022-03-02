@@ -17,14 +17,17 @@ p {
   margin: 0 auto;
   text-align: center;
   padding-top: 400px;
+
   }
 
-.button {
+button {
   padding: 10px;
   text-align: center;
   margin: 0 auto;
   width: 150px;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .button:hover {
