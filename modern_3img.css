@@ -89,6 +89,7 @@ section.text {
   margin: auto;
   border-radius: 50px;
 }
+
 .thumbnailbox {
   width: 225px;
   height: 170px;
@@ -119,4 +120,18 @@ section.text {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.forwardnav {
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  right:0;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+
+.arrowbutton {
+  width: 30px;
+  float: right;
 }
