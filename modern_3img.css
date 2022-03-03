@@ -80,19 +80,35 @@ section.text {
   position: absolute;
   background: white;
   width: 50%;
-  height: 30%;
+  height: 19%;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  padding: 30px;
   margin: auto;
   border-radius: 50px;
 }
 
 .thumbnail {
-  width: 25%;
-  overflow: hidden;
-  margin: 0 0 0 0;
-  clip-path: circle(60px at center);
+  width: 30%;
+  display: flex;
+  float: left;
+  clear:left;
+  margin-right: 50px;
+  /* margin:0 auto; */
+}
 
+.close {
+  width: 30px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.popuptext {
+  width: 90%;
+  height: 100%;
+  padding: 40px 0;
+  font-size: 20px;
 }
