@@ -19,8 +19,9 @@ body {
 }
 
 
-section.placeholder {
-  height: 502px;
+section.fakeimages {
+  display: flex;
+  opacity: 0;
 }
 
 section.text {
