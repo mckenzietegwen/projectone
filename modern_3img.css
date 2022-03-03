@@ -79,6 +79,20 @@ section.text {
 .popup {
   position: absolute;
   background: white;
-  box-sizing: border-box;
   width: 50%;
+  height: 30%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.thumbnail {
+  width: 25%;
+  overflow: hidden;
+  margin: 0 0 0 0;
+  clip-path: circle(60px at center);
+
 }
