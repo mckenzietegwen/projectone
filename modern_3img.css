@@ -65,3 +65,20 @@ section.text {
   background-color: white;
   border-radius: 30px;
 }
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #304fff;
+  opacity: 85%;
+}
+
+.popup {
+  position: absolute;
+  background: white;
+  box-sizing: border-box;
+  width: 50%;
+}
