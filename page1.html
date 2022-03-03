@@ -6,7 +6,7 @@
 		<link href="assets/reset.css" rel="stylesheet">
 		<!-- <link href="splashstyle.css" rel="stylesheet"> -->
     <link href="modern.css" rel="stylesheet">
-		<title>page 1</title>
+		<title>swipe your metrocard</title>
 		<link rel="icon" type="image/x-icon" href="favicon.png">
 <!-- JS drag and drop -->
     <style>
@@ -56,9 +56,12 @@ function drop(ev) {
       <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
       <br>
       <img id="drag1" src="metrocard.png" style="width: 200px;" draggable="true" ondragstart="drag(event)" width="200px" height="auto">
-      <a href="page2.html">
-      <button type="button" class="button" style="border:1px solid white; z-index: 1;">walk through</button>
+
+			<div id="below">
+			<a href="page2.html">
+      <button type="button" class="button" style="border:2px solid #304fff;">walk through</button>
       </a>
+		</div>
     <!-- JS drag and drop -->
 
       <section class="turnstile">
