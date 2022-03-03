@@ -14,7 +14,6 @@
         width: 300px;
         height: 200px;
         padding: 10px;
-        z-index: 2;
         position: absolute;
         right:0;
         top: 620px;
@@ -56,8 +55,7 @@ function drop(ev) {
       <!-- JS drag and drop -->
       <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
       <br>
-      <img id="drag1" src="metrocard.png" style="width: 200px; z-index: 2;" draggable="true" ondragstart="drag(event)" width="200px" height="auto">
-
+      <img id="drag1" src="metrocard.png" style="width: 200px;" draggable="true" ondragstart="drag(event)" width="200px" height="auto">
       <a href="page2.html">
       <button type="button" class="button" style="border:1px solid white; z-index: 1;">walk through</button>
       </a>
@@ -65,7 +63,7 @@ function drop(ev) {
 
       <section class="turnstile">
       <div>
-        <img src="Original_Turnstile.png" alt="Turnstile" style="position: absolute; right:0; bottom:0px; z-index: 1; width:75%">
+        <img src="Original_Turnstile.png" alt="Turnstile" style="position: absolute; right:0; bottom:0px; width:75%">
       </div>
     </section>
 	</body>

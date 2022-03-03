@@ -31,16 +31,11 @@ section.turnstile {
   background-color: blue;
 }
 
-#drag1 {
-  padding-left: 50px;
-}
-
-button {
+.button {
   padding: 10px;
   text-align: center;
   margin: 0 auto;
   width: 150px;
-  position: absolute;
   border-radius: 30px;
   background-color: white;
   font-family: Gotham;
@@ -49,6 +44,10 @@ button {
   color: #304FFF;
   margin-top: -50px;
   margin-left: 50px;
+}
+
+#drag1 {
+  padding-left: 50px;
 }
 
 .button:hover {
