@@ -92,7 +92,6 @@ section.text {
 
 .thumbnail {
   width: 30%;
-  display: flex;
   float: left;
   clear:left;
   margin-right: 50px;
@@ -107,8 +106,8 @@ section.text {
 }
 
 .popuptext {
-  width: 90%;
-  height: 100%;
-  padding: 40px 0;
   font-size: 20px;
+  margin-right: 30px;
+  top: 0;
+  right: 0;
 }
