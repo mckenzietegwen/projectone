@@ -77,6 +77,16 @@ section.text {
   border-radius: 30px;
 }
 
+/* info button for page 11 */
+#infobutton_p11 {
+  width: 30px;
+  position: absolute;
+  top: 17%;
+  right: 27%;
+  background-color: white;
+  border-radius: 30px;
+}
+
 .overlay {
   position: absolute;
   height: 100%;
@@ -151,9 +161,7 @@ section.text {
   font-size: 20px;
   margin-left: 225px;
   margin-right: 50px;
-  margin-top: 40px;
   position: absolute;
-  top: 0;
   text-align: left;
 }
 
