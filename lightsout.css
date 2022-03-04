@@ -63,6 +63,10 @@ body {
 }
 
 #photo3{
+  opacity: 0.25;
+}
+
+#photo3_final{
   opacity: 0;
 }
 
