@@ -24,8 +24,21 @@ body.dark {
   flex-direction: column;
   justify-content: center;
   left: 0;
+  width: 50%;
   margin-left: 50px;
   min-height: 100vh;
+}
+
+.gif {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  top:0;
+  position: absolute;
+
 }
 
 body {
