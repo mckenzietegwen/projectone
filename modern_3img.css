@@ -1,9 +1,9 @@
 body {
-  font-family: Gotham;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   padding-bottom: 100px;
-  line-height: 2.5em;
+  line-height: normal;
 }
 
 .images {
@@ -32,7 +32,7 @@ section.text {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 100px;
-  font-family: Gotham;
+  font-family: sans-serif;
   font-style: normal;
   font-size: 36px;
   flex-direction: column;
