@@ -87,6 +87,26 @@ section.text {
   border-radius: 30px;
 }
 
+/* info button for page 14-1 */
+#infobutton_p14-1 {
+  width: 30px;
+  position: absolute;
+  top: 17%;
+  left: 27%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+/* info button for page 14-2 */
+#infobutton_p14-2 {
+  width: 30px;
+  position: absolute;
+  top: 17%;
+  right: 27%;
+  background-color: white;
+  border-radius: 30px;
+}
+
 .overlay {
   position: absolute;
   height: 100%;
