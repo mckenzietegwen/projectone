@@ -18,9 +18,9 @@ body.dark {
   min-height: 100vh;
 }
 
-body.vintage {
-  font-family: Arial;
-  font-size: 50px;
+body {
+  cursor: url('https://i.ibb.co/yFFqBFT/vintagecursor.png'),auto;
+  font-size: 30px;
   font-style: normal;
   font-weight: normal;
   padding-bottom: 100px;
@@ -52,9 +52,9 @@ section.text {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 100px;
-  font-family: Gotham;
+  font-family: Times New Roman;
   font-style: normal;
-  font-size: 36px;
+  font-size: 30px;
   flex-direction: column;
   width: 50%;
 }
@@ -63,8 +63,8 @@ section.text {
 #infobutton_p18 {
   width: 20px;
   position: absolute;
-  top: 13%;
-  left: 50%;
+  top: 6%;
+  left: 30.5%;
   background-color: white;
   border-radius: 30px;
 }
@@ -93,12 +93,12 @@ section.text {
   border-radius: 50px;
 }
 
-.thumbnailbox {
+/* .thumbnailbox {
   width: 225px;
   height: 170px;
   /* background-color: blue; */
-  float: left;
-}
+  /* float: left;
+} */
 
 .thumbnail {
   max-width: 100%;
