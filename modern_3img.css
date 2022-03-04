@@ -200,6 +200,10 @@ section.text {
   float: right;
 }
 
+.arrowbuttonlabel {
+  line-height: 1em;
+}
+
 hr {
   height: 1px;
   border-width: thin;
