@@ -19,7 +19,6 @@ body.dark {
 }
 
 body {
-  cursor: url('https://i.ibb.co/yFFqBFT/vintagecursor.png'),auto;
   font-size: 30px;
   font-style: normal;
   font-weight: normal;
@@ -75,7 +74,7 @@ section.text {
   top: 0;
   left: 0;
   right: 0;
-  background: #304fff;
+  background: #c4c4c4;
   opacity: 85%;
 }
 
@@ -83,39 +82,38 @@ section.text {
   position: absolute;
   background: white;
   width: 50%;
-  height: 19%;
+  height: 30%;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 30px;
+  text-align: center;
   margin: auto;
-  border-radius: 50px;
+  box-shadow: 5px 12px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* .thumbnailbox {
-  width: 225px;
-  height: 170px;
-  /* background-color: blue; */
-  /* float: left;
-} */
+.gradient {
+  flex-direction: column;
+  width: 100%;
+  height: 25px;
+  top: 0;
+  background: linear-gradient(270deg, #257fd2 0%, #003c74 100%);
+}
 
 .thumbnail {
-  max-width: 100%;
+  padding-top: 30px;
+  max-width: 90%;
   max-height: 100%;
-  float: left;
   margin-right: 50px;
   display: block;
-  /* margin:0 auto; */
+  margin:0 auto;
 }
 
 .popuptext {
   font-size: 20px;
-  margin-left: 225px;
-  margin-right: 50px;
+  width: 175px;
+  margin-top: 30px;
   position: absolute;
-  top: 0;
-  text-align: left;
 }
 
 .forwardnav {
