@@ -116,6 +116,20 @@ section.text {
   box-shadow: 5px 12px 4px rgba(0, 0, 0, 0.25);
 }
 
+.popup_3 {
+  position: absolute;
+  background: #c4c4c4;
+  width: 50%;
+  height: 29%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  margin: auto;
+  box-shadow: 5px 12px 4px rgba(0, 0, 0, 0.25);
+}
+
 .gradient {
   flex-direction: column;
   width: 100%;
@@ -133,6 +147,15 @@ section.text {
   margin:0 auto;
 }
 
+.thumbnail_p27 {
+  max-width: 90%;
+  max-height: 100%;
+  margin-right: 50px;
+  display: block;
+  margin:0 auto;
+  opacity: 0.75;
+}
+
 .popuptext {
   font-size: 20px;
   margin-top: 30px;
@@ -141,6 +164,18 @@ section.text {
   padding: 10px;
   text-align: center;
   width: 25%;
+  background-color: rgba(196, 196, 196, 0.74);
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.popuptext_p27 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  width: 45%;
   background-color: rgba(196, 196, 196, 0.74);
   box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
 }
