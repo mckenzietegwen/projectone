@@ -3,7 +3,7 @@ body {
   font-style: normal;
   font-weight: normal;
   padding-bottom: 100px;
-  line-height: 1.5em;
+  line-height: 2.5em;
 }
 
 .images {
@@ -56,6 +56,7 @@ section.text {
   margin-left: 100px;
   margin-bottom: 104px;
   opacity: 50%;
+  line-height: normal;
 }
 
 /* info button for page 5 */
@@ -130,6 +131,7 @@ section.text {
   padding: 30px;
   margin: auto;
   border-radius: 50px;
+  line-height: 1.5em;
 }
 
 .popup_p9 {
@@ -144,6 +146,7 @@ section.text {
   padding: 30px;
   margin: auto;
   border-radius: 50px;
+  line-height: normal;
 }
 
 .thumbnailbox {
