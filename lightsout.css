@@ -39,7 +39,7 @@ body {
 }
 
 #photo3{
-  opacity: 0.25;
+  opacity: 0;
 }
 
 section.fakeimages {
@@ -68,6 +68,16 @@ section.text {
   border-radius: 30px;
 }
 
+/* info button for page 26 */
+#infobutton_p26 {
+  width: 20px;
+  position: absolute;
+  top: 18.5%;
+  right: 40%;
+  background-color: white;
+  border-radius: 30px;
+}
+
 .overlay {
   position: absolute;
   height: 100%;
@@ -80,7 +90,7 @@ section.text {
 
 .popup {
   position: absolute;
-  background: white;
+  background: #c4c4c4;
   width: 50%;
   height: 30%;
   top: 0;
@@ -94,7 +104,7 @@ section.text {
 
 .popup_2 {
   position: absolute;
-  background: white;
+  background: #c4c4c4;
   width: 50%;
   height: 20%;
   top: 0;
